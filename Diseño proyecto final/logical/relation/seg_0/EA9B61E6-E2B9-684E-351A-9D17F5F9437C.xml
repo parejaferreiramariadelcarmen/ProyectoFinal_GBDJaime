@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASIGNADO" directorySegmentName="seg_0" id="EA9B61E6-E2B9-684E-351A-9D17F5F9437C">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:20:53 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<sourcePk>5006D329-36D5-BD21-5F8A-438D88F7092A</sourcePk>
+<targetPk>C00DB948-F16A-B147-77A4-96E72565BF21</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>44D4EB09-DAC0-D474-F0AF-7013F7B5D619</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F9A8544A-D3B6-94D7-6268-9D8764D61A9B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Puesto" id="A87FEB39-A534-B28F-2956-EDC3666892C9">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:22:46 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

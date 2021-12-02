@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9A8544A-D3B6-94D7-6268-9D8764D61A9B" name="LABORATORIO">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:20:10 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_lab" id="FD7244BB-7D5C-F987-08C1-97DCE8666FF5">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:20:24 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Puesto" id="043998AB-7A46-620B-F08C-9200E851F3B8">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:20:32 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nº de Serie" id="3DF886EB-E0AA-5F36-9E56-E1A60ACBD7A2">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:24:31 UTC</createdTime>
+<generatorID>60B82BA7-8F0A-C8C7-3067-5EAB2601316A</generatorID>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<referedAttribute>B6367318-173A-2506-5F01-AE25A9752E5C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C00DB948-F16A-B147-77A4-96E72565BF21" name="LABORATORIO PK">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:20:29 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD7244BB-7D5C-F987-08C1-97DCE8666FF5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1515173-2695-EE3A-2FA5-5361FA1798BD" name="MÁQUINA DE CAFE">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:23:37 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nº de Serie" id="B6367318-173A-2506-5F01-AE25A9752E5C">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:23:46 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2858D0D-10D9-675E-6893-C21937BB6AA5" name="MÁQUINA DE CAFE PK">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:23:53 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6367318-173A-2506-5F01-AE25A9752E5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

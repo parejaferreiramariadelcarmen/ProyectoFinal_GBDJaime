@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03100D21-734D-A67D-81C5-DC7C892280E5" name="CUENTA">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:17:06 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Usuario" id="6D5AEF85-AA57-5D91-9732-F4BAFCC76151">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:17:18 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contraseña" id="94079504-4407-E5D2-FEFF-DB12BBA669D1">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:18:24 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="75B6353D-1A08-7CC9-0E47-8EF9BB1D5F34">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:19:27 UTC</createdTime>
+<generatorID>E496C0D6-A2EC-05D7-2711-F8DB0452FFA0</generatorID>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<referedAttribute>69306418-676A-6F21-5D47-7D798A5EAC9E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0B76E88-26AF-1707-85D7-F8D5E5A86C0A" name="CUENTA PK">
+<createdBy>maric</createdBy>
+<createdTime>2021-12-03 00:17:30 UTC</createdTime>
+<ownerDesignName>Diseño proyecto final</ownerDesignName>
+<engineerTo>
+<item key="A3A29DA5-28ED-720C-83ED-44276CD0E5D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D5AEF85-AA57-5D91-9732-F4BAFCC76151</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
